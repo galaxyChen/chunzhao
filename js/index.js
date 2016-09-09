@@ -40,7 +40,7 @@ function originSetting()
 var main=document.getElementById('main');
 var length=main.clientHeight*0.28;
 var inside=document.getElementById('inside-1');
-var size=length*0.19*0.5;
+var size=length*0.19*0.8;
 $('#big').css('height',length+'px');
 $('#big').css('width',length+'px');
 $('#big').css('transform','rotate(45deg)');
@@ -48,7 +48,7 @@ $('#big').css('font-size',size+'px');
 //activity page setting
 var length=main.clientHeight*0.18;
 var len=main.clientHeight*0.10;
-size=main.clientHeight*0.022;
+size=main.clientHeight*0.03;
 $('.backImg').css('height',length+'px');
 $('.backImg').css('width',length+'px');
 $('.lastImg').css('height',len+'px');

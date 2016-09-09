@@ -36,9 +36,6 @@
 	});
 
 
-
-function originSetting()
-{
 //index page setting
 var main=document.getElementById('main');
 var length=main.clientHeight*0.28;
@@ -63,7 +60,35 @@ $('#backB').css('width',length+'px');
 console.log(main.clientWidth);
 var position=(main.clientWidth-length)/2;
 $('#backB').css('left',position+'px');
-}
+
+
+// function originSetting()
+// {
+// //index page setting
+// var main=document.getElementById('main');
+// var length=main.clientHeight*0.28;
+// var inside=document.getElementById('inside-1');
+// var size=length*0.19*0.5;
+// $('#big').css('height',length+'px');
+// $('#big').css('width',length+'px');
+// $('#big').css('transform','rotate(45deg)');
+// $('#big').css('font-size',size+'px');
+// //activity page setting
+// var length=main.clientHeight*0.18;
+// var len=main.clientHeight*0.10;
+// size=main.clientHeight*0.022;
+// $('.backImg').css('height',length+'px');
+// $('.backImg').css('width',length+'px');
+// $('.lastImg').css('height',len+'px');
+// $('.nextImg').css('width',len+'px');
+// $('#departure').css('font-size',size+'px');
+// $('#bbt').css('font-size',size+'px');
+// $('#backB').css('height',length+'px');
+// $('#backB').css('width',length+'px');
+// console.log(main.clientWidth);
+// var position=(main.clientWidth-length)/2;
+// $('#backB').css('left',position+'px');
+// }
 
 function addAnimate(index)
 {
@@ -138,7 +163,7 @@ window.onload=function()
 	swiper1.lockSwipeToPrev();
 	swiper2.lockSwipeToNext();
 	swiper2.lockSwipeToPrev();
-	originSetting();
+	// originSetting();
 }
 
 $('#guide-1').bind('click',function()

@@ -1,0 +1,278 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+html,body
+{
+	height: 100%;
+	width: 100%;
+}
+
+.swiper-slide,.swiper-container,.swiper-container-2,
+.swiper-container-3,.swiper-wrapper,.swiper-wrapper-2,
+.swiper-wrapper-3
+{
+	height: 100%;
+	width: 100%;
+}
+
+.index
+{
+	background-image: url("../img/background.jpg");
+	background-repeat: no-repeat;
+	filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='scale')";  
+	-moz-background-size:100% 100%;  
+    background-size:100% 100%;  
+
+}
+
+.big
+{
+	background-color: white;
+	margin: 0 auto;
+	position: relative;
+	top: 48%;
+}
+
+.small
+{
+	height: 50%;
+	width: 50%;
+	float: left;
+	margin: -2px;
+	border-width: 2px;
+	border-style: solid;
+	background-color: #f6f3ec;
+}
+
+.area-1
+{
+	
+	border-color: #70c399;
+}
+
+.area-2
+{
+
+	border-color: #c1c1c1;
+}
+
+.area-3
+{
+	border-color: #ebd758;
+}
+
+.area-4
+{
+	border-color: #878356;
+}
+
+.inside
+{
+	width: 84%;
+	height: 84%;
+	border-style: solid;
+	border-width: 2px;
+	margin: 0 auto;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+}
+
+.inside-1
+{
+	border-color: #c1e2d8;
+}
+
+.inside-2
+{
+	width: 100%;
+	height: 100%;
+	background-image: url("../img/2.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;	
+}
+.inside-3
+{
+	border-color: #ede5b3;
+}
+
+.inside-4
+{
+	border-color: #d6d3af;
+}
+
+.text
+{
+	font-size: 1em;
+	font-family: "Microsoft YaHei";
+	transform: rotate(-45deg);
+	-webkit-transform: rotate(-45deg);
+	position: relative;
+	top: 38%;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.text-1
+{
+	color: #49bd9b;
+}
+
+.text-2
+{
+	color: white;
+}
+
+.text-3
+{
+	color: #aa881a;
+}
+
+.text-4
+{
+	color: #51430b;
+}
+
+.activity-1
+{
+	background-image: url("../img/carvingTime.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.activity-2
+{
+	background-image: url("../img/graduationSeason.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.activity-3
+{
+	background-image: url("../img/timeCapsule.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+
+.departure
+{
+	background-image: url("../img/background2.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.bottom
+{
+	position: relative;
+	top: 72.5%;
+	width: 100%;
+	height: 18%;
+	margin-left: -1px;
+}
+
+.lastImg
+{
+
+	position: absolute;
+	left: 4%;
+	top: 50%;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+}
+
+.backImg
+{
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+
+}
+
+.nextImg
+{
+	position: absolute;
+	right: 4%;
+	top: 50%;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+}
+
+.text-d
+{
+	font-size: 1em;
+	font-family: "Microsoft YaHei";
+	width: 45%;
+	text-align: center;
+	opacity: 0;
+}
+
+.up
+{
+	position: absolute;
+	top: 14%;
+	left: 3%;
+}
+
+.down
+{
+	position: absolute;
+	top: 45%;
+	right: 3%;
+}
+
+.title
+{
+	position: absolute;
+	top: 9%;
+	font-size: 1.4em;
+	font-family: "Microsoft YaHei";
+	color: white;
+	left: 50%;
+	transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+}
+
+.bbt-text
+{
+	position: absolute;
+	width: 85%;
+	left: 7.5%;
+	opacity: 0;
+	font-size: 1em;
+	color: white;
+	font-family: "Microsoft YaHei";
+}
+
+
+#bbt-1
+{
+	top: 20%;
+}
+
+#bbt-2
+{
+	top: 40%;
+}
+
+.bbt
+{
+	height: 100%;
+	width: 100%;
+	background-image: url("../img/bbt.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	line-height: 200%;
+}
+
+.backB
+{
+	position: absolute;
+	opacity: 0;
+	top: 72%;
+	left: 33.75%;
+}

@@ -48,7 +48,7 @@ $('#big').css('font-size',size+'px');
 //activity page setting
 var length=main.clientHeight*0.18;
 var len=main.clientHeight*0.10;
-size=main.clientHeight*0.024;
+size=main.clientHeight*0.022;
 $('.backImg').css('height',length+'px');
 $('.backImg').css('width',length+'px');
 $('.lastImg').css('height',len+'px');

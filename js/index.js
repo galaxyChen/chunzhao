@@ -1,6 +1,7 @@
 	var swiper1=new Swiper(".swiper-container",{
 		direction:'vertical',
 		initialSlide: 1,
+		speed: 800,
 		onSlideChangeEnd:function(swiper)
 		{
 			if (swiper.activeIndex==0)
@@ -12,6 +13,7 @@
 		direction:'horizontal',
 		initialSlide: 5,
 		effect: 'coverflow',
+		speed: 800,
 		onSlideChangeEnd: function(swiper)
 		{
 			if (swiper.activeIndex==4)
@@ -26,6 +28,7 @@
 		direction:'horizontal',
 		initialSlide: 0,
 		effect: 'fade',
+		speed: 800,
 		fade: {
 			 crossFade: false,
 		}
@@ -155,7 +158,7 @@ $('#guide-3').bind('click',function()
 {
 	swiper2.unlockSwipeToNext();
 	swiper2.unlockSwipeToPrev();
-	swiper2.slidePrev();
+	swiper2.slideTo(0,400);
 
 })
 

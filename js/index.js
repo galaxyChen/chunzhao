@@ -57,6 +57,9 @@ $('#departure').css('font-size',size+'px');
 $('#bbt').css('font-size',size+'px');
 $('#backB').css('height',length+'px');
 $('#backB').css('width',length+'px');
+console.log(main.clientWidth);
+var position=(main.clientWidth-length)/2;
+$('#backB').css('left',position+'px');
 }
 
 function addAnimate(index)

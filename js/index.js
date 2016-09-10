@@ -154,8 +154,7 @@ window.onload=function()
 	swiper2.lockSwipeToNext();
 	swiper2.lockSwipeToPrev();
 	originSetting();
-	$('#loading-text').removeClass('animated-infinite');
-	$('#loading-text').removeClass('flash');
+
 	$('#loading-text').addClass('animated');
 	$('#loading-text').addClass('fadeOut');
 	$('#cover').addClass('fadeOut');
@@ -235,3 +234,4 @@ $('#backB').bind('click',function()
 	swiper1.slideNext();
 	swiper1.lockSwipeToNext();
 })
+

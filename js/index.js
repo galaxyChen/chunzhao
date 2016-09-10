@@ -140,8 +140,8 @@ window.onload=function()
 	swiper1.lockSwipeToPrev();
 	swiper2.lockSwipeToNext();
 	swiper2.lockSwipeToPrev();
-	$('#cover').remove();
 	originSetting();
+	$('#cover').remove();
 }
 
 $('#guide-1').bind('click',function()

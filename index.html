@@ -7,6 +7,30 @@
 	<link rel="stylesheet" type="text/css" href="./css/swiper-3.3.1.min.css">
 	<link rel="stylesheet" type="text/css" href="./css/index.css">
 	<link rel="stylesheet" type="text/css" href="./css/animate.css">
+	<style type="text/css">
+		.cover
+		{
+		position: fixed;
+		top: 0;
+		left: 0;
+		height: 100%;
+		width: 100%;
+		background-color: rgb(246,243,236);
+		z-index: 1;
+		}	
+
+		.cover-text
+		{
+		width: 100%;
+		font-size: 30px;
+		text-align: center;
+		font-family: "Microsoft YaHei";
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+		-webkit-transform: translateY(-50%);
+		}
+	</style>
 	<title>秋季招生宣传2016-大学城百步梯</title>
 </head>
 <body>
@@ -211,7 +235,11 @@
 	 		</div>
 	 	</div>
 	 </div>
-	 <div class="cover" id="cover"></div>
+	 <div class="cover animated" id="cover" >
+	
+	 	<p class="animated-infinite cover-text flash" id='loading-text'>loading....</p>
+
+	 </div>
 	 <script type="text/javascript" src='./js/zepto.min.js'></script>
 	<script type="text/javascript" src="./js/swiper-3.3.1.jquery.min.js"></script>
 

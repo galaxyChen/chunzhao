@@ -141,7 +141,12 @@ window.onload=function()
 	swiper2.lockSwipeToNext();
 	swiper2.lockSwipeToPrev();
 	originSetting();
-	setTimeout("$('#cover').remove();",1000);
+	$('#loading-text').removeClass('animated-infinite');
+	$('#loading-text').removeClass('flash');
+	$('#loading-text').addClass('animated');
+	$('#loading-text').addClass('fadeOut');
+	$('#cover').addClass('fadeOut');
+	setTimeout("$('#cover').remove();",1100);
 }
 
 $('#guide-1').bind('click',function()

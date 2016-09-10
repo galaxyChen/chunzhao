@@ -45,10 +45,17 @@ var main=document.getElementById('main');
 var length=main.clientHeight*0.28;
 var inside=document.getElementById('inside-1');
 var size=length*0.19*0.5;
+var height=main.clientWidth*0.67;
+var bottom_width=main.clientWidth*0.54;
+length=(main.clientHeight-height-bottom_width*0.5)/1.414;
 $('#big').css('height',length+'px');
 $('#big').css('width',length+'px');
+$('#big').css('top',height+0.207*length+'px');
 $('#big').css('transform','rotate(45deg)');
 $('#big').css('font-size',size+'px');
+$('#upImg').css('height',height+'px');
+$('#downImg').css('width',bottom_width+'px');
+$('#downImg').css('height',bottom_width*0.5+'px');
 //activity page setting
 var length=main.clientHeight*0.18;
 var len=main.clientHeight*0.10;

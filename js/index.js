@@ -59,12 +59,26 @@ $('.backImg').css('width',length+'px');
 $('.lastImg').css('height',len+'px');
 $('.nextImg').css('width',len+'px');
 $('#departure').css('font-size',size+'px');
+//bbt
 $('#bbt').css('font-size',size+'px');
 $('#backB').css('height',length+'px');
 $('#backB').css('width',length+'px');
-console.log(main.clientWidth);
 var position=(main.clientWidth-length)/2;
 $('#backB').css('left',position+'px');
+//triangle
+//var triangle=document.getElementById('triangle');
+var border_bottom=triangle.clientHeight*1.01;
+var border=triangle.clientWidth*0.49;
+var center=main.clientHeight*0.50;
+var size=main.clientHeight*0.024;
+var line=main.clientHeight*0.03;
+$('.left').css('border-right-width',border+'px');
+$('.right').css('border-left-width',border+'px');
+$('.left').css('border-bottom-width',border_bottom+'px');
+$('.right').css('border-bottom-width',border_bottom+'px');
+$('.center').css('height',center+'px');
+$('.center').css('width',center+'px');
+$('.center').css('font-size',size+'px');
 }
 
 function addAnimate(index)

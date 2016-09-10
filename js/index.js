@@ -141,7 +141,7 @@ window.onload=function()
 	swiper2.lockSwipeToNext();
 	swiper2.lockSwipeToPrev();
 	originSetting();
-	$('#cover').remove();
+	setTimeout("$('#cover').remove();",1000);
 }
 
 $('#guide-1').bind('click',function()

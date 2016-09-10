@@ -278,12 +278,33 @@ html,body
 	width: 52%;		
     height: 16%;
     overflow: hidden;
-	background: #ece9df; /* Old Browsers */
-    background: -webkit-linear-gradient(#ece9df, #a9a68b);
-    background: -o-linear-gradient(#ece9df, #a9a68b);
-    background: linear-gradient(#ece9df, #a9a68b); /*Safari 5.1-6*/ /*Opera 11.1-12*/ /*Fx 3.6-15*/ /*Standard*/
 }	
 
+.triangle-1
+{
+	background: #ebe8de; /* Old Browsers */
+    background: -webkit-linear-gradient(#ebe8de, #a9a68b);
+    background: -o-linear-gradient(#ebe8de, #a9a68b);
+    background: linear-gradient(#ebe8de, #a9a68b); /*Safari 5.1-6*/ /*Opera 11.1-12*/ /*Fx 3.6-15*/ /*Standard*/
+}
+
+.triangle-2
+{
+	background: #ece9e1; /* Old Browsers */
+    background: -webkit-linear-gradient(top,#ece9e1,#b2ada0); /*Safari 5.1-6*/
+    background: -o-linear-gradient(top,#ece9e1,#b2ada0); /*Opera 11.1-12*/
+    background: -moz-linear-gradient(top,#ece9e1,#b2ada0); /*Fx 3.6-15*/
+    background: linear-gradient(to bottom, #ece9e1, #b2ada0); /*Standard*/
+}
+
+.triangle-3
+{
+	background: #f6f3ec; /* Old Browsers */
+    background: -webkit-linear-gradient(top,#f6f3ec,#e0dcc8); /*Safari 5.1-6*/
+    background: -o-linear-gradient(top,#f6f3ec,#e0dcc8); /*Opera 11.1-12*/
+    background: -moz-linear-gradient(top,#f6f3ec,#e0dcc8); /*Fx 3.6-15*/
+    background: linear-gradient(to bottom, #f6f3ec, #e0dcc8); /*Standard*/
+}
 
 .left
 {

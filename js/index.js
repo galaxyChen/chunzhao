@@ -154,11 +154,14 @@ window.onload=function()
 	swiper2.lockSwipeToNext();
 	swiper2.lockSwipeToPrev();
 	originSetting();
-
+	$('#loading-text').removeClass('animated-infinite');
+	$('#loading-text').removeClass('flash');
 	$('#loading-text').addClass('animated');
 	$('#loading-text').addClass('fadeOut');
 	$('#cover').addClass('fadeOut');
 	setTimeout("$('#cover').remove();",1100);
+	$('#big').addClass('pulse');
+	setTimeout("$('#big').removeClass('pulse');",1000);
 }
 
 $('#guide-1').bind('click',function()
@@ -171,7 +174,7 @@ $('#guide-1').bind('click',function()
 $('#guide-2').bind('click',function()
 {
 	//window.location.href="";
-	alert("not ready yet");
+	alert("百步梯线上报名开始时间为9月11号12:40，敬请关注~");
 })
 
 $('#guide-3').bind('click',function()

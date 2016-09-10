@@ -12,7 +12,6 @@
 	var swiper2=new Swiper(".swiper-container-2",{
 		direction:'horizontal',
 		initialSlide: 5,
-		effect: 'coverflow',
 		speed: 800,
 		onSlideChangeEnd: function(swiper)
 		{
